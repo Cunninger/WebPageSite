@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 websites = [
     {
-        'img_src': 'static/images/example_logo.png',
+        'img_src': '/images/logo.png',
         'alt_text': 'Example',
         'title': 'Example',
         'description': '这是一个示例平台的描述'
