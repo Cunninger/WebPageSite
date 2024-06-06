@@ -9,6 +9,106 @@ websites = [
         'title': 'Example',
         'description': '这是一个示例平台的描述'
     },
+
+    {
+        'img_src': '/images/logo.png',
+        'alt_text': 'Example',
+        'title': 'Example',
+        'description': '这是一个示例平台的描述'
+    },
+
+    {
+        'img_src': '/images/logo.png',
+        'alt_text': 'Example',
+        'title': 'Example',
+        'description': '这是一个示例平台的描述'
+    },
+
+        {
+            'img_src': '/images/logo.png',
+            'alt_text': 'Example',
+            'title': 'Example',
+            'description': '这是一个示例平台的描述'
+        },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+            {
+                'img_src': '/images/logo.png',
+                'alt_text': 'Example',
+                'title': 'Example',
+                'description': '这是一个示例平台的描述'
+            },
+
+
     # 添加更多网站信息...
 ]
 
