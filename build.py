@@ -1,5 +1,6 @@
 import os
 import shutil
+import glob
 
 if __name__ == '__main__':
     if os.path.exists('build'):
@@ -7,5 +8,9 @@ if __name__ == '__main__':
 
     os.mkdir('build')
     shutil.copytree('static', 'build/static')
-    shutil.copy('templates/index.html', 'build/index.html')
+
+    # Copy all HTML files from templates to build
+    for html_file in glob.glob('templates/*.html'):
+        shutil.copy(html_file, 'build/')
+
     shutil.copy('CNAME', 'build/CNAME')  # Add this line to copy CNAME file
