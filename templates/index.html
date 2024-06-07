@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website Navigation</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
 <div class="container">
@@ -12,7 +12,7 @@
     <div class="grid">
         {% for website in websites %}
             <div class="card">
-                <img src="{{ url_for('static', filename=website.img_src) }}" alt="{{ website.alt_text }}">
+              <img src="/static/{{ website.img_src }}" alt="{{ website.alt_text }}">
                 <h3>{{ website.title }}</h3>
                 <p>{{ website.description }}</p>
             </div>
