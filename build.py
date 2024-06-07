@@ -9,4 +9,5 @@ if __name__ == '__main__':
     shutil.copytree('static', 'build/static')
     shutil.copy('templates/index.html', 'build/index.html')
 
+
     shutil.copy('CNAME', 'build/CNAME')  # Add this line to copy CNAME file
