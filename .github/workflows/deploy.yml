@@ -22,6 +22,7 @@ jobs:
 
       - name: Build
         run: |
+          echo "site.yamazing.cn" > CNAME
           echo "No build step required for Flask"
           python build.py  # Add this line to run your build script
 
