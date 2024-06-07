@@ -10,13 +10,12 @@
 <div class="container">
     <div class="title">常用推荐</div>
     <div class="grid">
-        {% for website in websites %}
-            <div class="card">
-              <img src="/static/{{ website.img_src }}" alt="{{ website.alt_text }}">
-                <h3>{{ website.title }}</h3>
-                <p>{{ website.description }}</p>
-            </div>
-        {% endfor %}
+        <div class="card">
+            <img src="/static/images/logo.png" alt="Example">
+            <h3>Example</h3>
+            <p>这是一个示例平台的描述</p>
+        </div>
+        <!-- 添加更多网站信息... -->
     </div>
 </div>
 </body>
