@@ -2,7 +2,6 @@
 (function () {
     var colors = ["#D61C59", "#E7D84B", "#1B8798"];
     characters = ["♬", "♪"];
-     // characters = ["O", "O"];
     elementGroup = [];
     //定义元素类
     class Element {
